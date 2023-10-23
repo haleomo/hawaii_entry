@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hawaii_entry/agriculture_form.dart';
+import 'package:hawaii_entry/home_screen.dart';
 
 void main() {
   runApp(const HiAgApp());
@@ -40,7 +40,7 @@ class _HiAgAppState extends State<HiAgApp> {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AgricultureForm(title: 'STATE OF HAWAI‘I'),
+      home:  HomeScreen(),
     );
   }
 }
